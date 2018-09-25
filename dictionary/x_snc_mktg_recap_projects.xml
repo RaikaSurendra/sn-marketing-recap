@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="task" label="Projects" max_length="40" name="x_snc_mktg_recap_projects" type="collection">
+    <element audit="true" extends="task" label="Projects" max_length="40" name="x_snc_mktg_recap_projects" type="collection">
         <element label="Deliverable" max_length="1024" name="deliverable" type="url"/>
         <element label="Delivery date" max_length="40" name="delivery_date" type="glide_date"/>
+        <element label="Name" max_length="160" name="name" type="string"/>
         <element label="Owner" max_length="4000" name="owner" reference="sys_user" type="glide_list"/>
-        <element choice="1" label="Status" max_length="40" name="status" type="choice">
+        <element choice="3" default="not started" label="Status" max_length="40" name="status" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Green" sequence="0" value="green"/>
-                <element inactive_on_update="false" label="Yellow" sequence="1" value="yellow"/>
-                <element inactive_on_update="false" label="Red" sequence="2" value="red"/>
+                <element inactive_on_update="false" label="Not started" sequence="0" value="not started"/>
+                <element inactive_on_update="false" label="Green" sequence="1" value="green"/>
+                <element inactive_on_update="false" label="Yellow" sequence="2" value="yellow"/>
+                <element inactive_on_update="false" label="Red" sequence="3" value="red"/>
             </choice>
         </element>
         <element label="Owned by team" max_length="40" name="team" type="boolean"/>

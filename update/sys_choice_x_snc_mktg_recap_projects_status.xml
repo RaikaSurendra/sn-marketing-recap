@@ -5,18 +5,37 @@
             <element>status</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Green</label>
+            <label>Not started</label>
             <language>en</language>
             <name>x_snc_mktg_recap_projects</name>
             <sequence>0</sequence>
+            <sys_created_by>chuck.tomasi</sys_created_by>
+            <sys_created_on>2018-09-25 20:00:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>397c5b49dbb82300b56d9d62ba961983</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>chuck.tomasi</sys_updated_by>
+            <sys_updated_on>2018-09-25 20:01:04</sys_updated_on>
+            <value>not started</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Green</label>
+            <language>en</language>
+            <name>x_snc_mktg_recap_projects</name>
+            <sequence>1</sequence>
             <sys_created_by>chuck.tomasi</sys_created_by>
             <sys_created_on>2018-09-25 18:29:01</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>d387834ddb782300b56d9d62ba9619e1</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>chuck.tomasi</sys_updated_by>
-            <sys_updated_on>2018-09-25 18:29:01</sys_updated_on>
+            <sys_updated_on>2018-09-25 20:00:24</sys_updated_on>
             <value>green</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -27,15 +46,15 @@
             <label>Yellow</label>
             <language>en</language>
             <name>x_snc_mktg_recap_projects</name>
-            <sequence>1</sequence>
+            <sequence>2</sequence>
             <sys_created_by>chuck.tomasi</sys_created_by>
             <sys_created_on>2018-09-25 18:29:01</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>5387834ddb782300b56d9d62ba9619e3</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>chuck.tomasi</sys_updated_by>
-            <sys_updated_on>2018-09-25 18:29:01</sys_updated_on>
+            <sys_updated_on>2018-09-25 20:00:24</sys_updated_on>
             <value>yellow</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -46,15 +65,15 @@
             <label>Red</label>
             <language>en</language>
             <name>x_snc_mktg_recap_projects</name>
-            <sequence>2</sequence>
+            <sequence>3</sequence>
             <sys_created_by>chuck.tomasi</sys_created_by>
             <sys_created_on>2018-09-25 18:29:01</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>1f87834ddb782300b56d9d62ba9619e4</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>chuck.tomasi</sys_updated_by>
-            <sys_updated_on>2018-09-25 18:29:01</sys_updated_on>
+            <sys_updated_on>2018-09-25 20:00:24</sys_updated_on>
             <value>red</value>
         </sys_choice>
         <sys_choice_set action="INSERT_OR_UPDATE">
