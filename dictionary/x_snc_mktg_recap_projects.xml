@@ -1,3 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="task" label="Projects" max_length="40" name="x_snc_mktg_recap_projects" type="collection"/>
+    <element extends="task" label="Projects" max_length="40" name="x_snc_mktg_recap_projects" type="collection">
+        <element label="Deliverable" max_length="1024" name="deliverable" type="url"/>
+        <element label="Delivery date" max_length="40" name="delivery_date" type="glide_date"/>
+        <element label="Owner" max_length="4000" name="owner" reference="sys_user" type="glide_list"/>
+        <element choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Green" sequence="0" value="green"/>
+                <element inactive_on_update="false" label="Yellow" sequence="1" value="yellow"/>
+                <element inactive_on_update="false" label="Red" sequence="2" value="red"/>
+            </choice>
+        </element>
+        <element label="Owned by team" max_length="40" name="team" type="boolean"/>
+        <element choice="3" default="webinar" label="Type" max_length="40" name="type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Webinar" sequence="0" value="webinar"/>
+                <element inactive_on_update="false" label="Content" sequence="1" value="content"/>
+                <element inactive_on_update="false" label="Event" sequence="2" value="event"/>
+                <element inactive_on_update="false" label="Launch" sequence="3" value="launch"/>
+            </choice>
+        </element>
+    </element>
 </database>
